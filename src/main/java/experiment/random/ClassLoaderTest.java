@@ -1,7 +1,6 @@
 package experiment.random;
 
-import sun.reflect.CallerSensitive;
-import sun.reflect.Reflection;
+
 
 /**
  * Created 12/6/2017 14:10
@@ -14,9 +13,9 @@ public class ClassLoaderTest {
     new ClassLoaderTest().someMethod();
   }
 
-  @CallerSensitive
+  //@CallerSensitive
   public void someMethod() {
-    Reflection.getCallerClass();
+    //Reflection.getCallerClass(5);
   }
 
 }
