@@ -8,14 +8,20 @@ package experiment.random;
 public class Bool {
 
   public static void main(String[] args) {
-    Boolean bool = null;
+    printBools();
+    /*Boolean bool = null;
     System.out.println(bool);
     bool = new Boolean(null);
     System.out.println(bool);
     bool = new Boolean(null);
     System.out.println(bool);
     bool = new Boolean("Some random text");
-    System.out.println(bool);
+    System.out.println(bool);*/
+  }
+
+  public static void printBools(){
+    Boolean b1 = new Boolean(true);
+    System.out.println(true == b1);
   }
 
 }
